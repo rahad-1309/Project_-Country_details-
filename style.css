@@ -1,0 +1,42 @@
+.InnerDiv{
+border: 1px solid rgb(111, 180, 207);
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+width: 300px;
+margin: 30px;
+background-color: rgb(195, 233, 238);
+}
+
+.h3{
+    font-size: 40px;
+    color: rgb(49, 15, 9);
+
+}
+.p{
+    font-size: 25px;
+    color: rgb(2, 13, 44);
+}
+#countires{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px ;
+}
+#body{
+    background-color: rgb(250, 232, 221);
+}
+.country_Information{
+    border: 2px solid rgb(2, 4, 5);
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+width: 400px;
+margin: 30px;
+background-color: rgb(243, 243, 243);
+font-size: 20px;
+
+}
+.Header{
+    font-size: 40px;
+    text-align: center;
+}
